@@ -43,7 +43,7 @@ enforce_ssl: https://amirhossein-z.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-permalink: /:title/
+permalink: /blog/:title/
 
 version: v1.2.0
 
