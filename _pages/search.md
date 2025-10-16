@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Search
+title: Search(through blogs)
 description: Search through the blog posts of my website.
 permalink: /search/
 ---
@@ -16,6 +16,8 @@ permalink: /search/
     SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
+    noResultsText:'No matches found',
+    fuzzy:true,
     searchResultTemplate: '<div style="text-align: left !important;"><a href="{url}"><h1 style="text-align:left !important;">{title}</h1></a><span style="text-align:left !important;">{date}</span></div>',
     json: '{{ site.baseurl }}/search.json'
     });
