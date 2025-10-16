@@ -56,6 +56,11 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
+collections:
+  question:
+    output: true
+    permalink: /question/:slug/
+
 plugins:
   - jekyll-sitemap
   - jekyll-feed

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Search
+description: Search through the blog posts of my website.
 permalink: /search/
 ---
 
