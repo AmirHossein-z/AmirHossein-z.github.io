@@ -7,10 +7,8 @@ permalink: /question/
 <h1>Questions for pondering</h1>
 
 **NOTE:** Why I have this section? Because I want to trigger your curiosity and encourage you to think deeply about the world around you.
-Why I don't provide answer or resource for them? because some of them doesn't have Correct and perfect answer and some of them
+Why I don't provide answer or resource for them? because some of them doesn't have correct and perfect answer and some of them
 has lots of resource that you can search for them to learn more.
-
-
 
 ## philosophy
 
@@ -30,7 +28,7 @@ has lots of resource that you can search for them to learn more.
 
 - What is money? how it was created and envolved over time? how does it work?
 
-- Who we can call best friend?
+- Who we can call best friends?
 
 ## learn
 
@@ -39,3 +37,5 @@ has lots of resource that you can search for them to learn more.
 ## other
 
 - What is etiquette? types of etiquette especially in social media?
+
+- What is tradeoff? and its effect on our life? [Read more](http://localhost:4000/blog/tradeoffs/)
