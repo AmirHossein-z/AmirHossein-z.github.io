@@ -38,4 +38,4 @@ has lots of resource that you can search for them to learn more.
 
 - What is etiquette? types of etiquette especially in social media?
 
-- What is tradeoff? and its effect on our life? [Read more](http://localhost:4000/blog/tradeoffs/)
+- What is tradeoff? and its effect on our life? [Read more](/blog/tradeoffs/)
