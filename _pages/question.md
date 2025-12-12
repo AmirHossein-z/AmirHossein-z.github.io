@@ -30,6 +30,10 @@ has lots of resource that you can search for them to learn more.
 
 - Who we can call best friends?
 
+- What are your criteria for life satisfaction?
+
+- What is peace? When do you have peace?
+
 ## learn
 
 - What is learning? how we can learn better? What is deep learning?
@@ -39,3 +43,5 @@ has lots of resource that you can search for them to learn more.
 - What is etiquette? types of etiquette especially in social media?
 
 - What is tradeoff? and its effect on our life? [Read more](/blog/tradeoffs/)
+
+- What is planing? Do you plan in your life? What is bullet journal?
