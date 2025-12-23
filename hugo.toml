@@ -1,0 +1,101 @@
+baseURL = 'https://amirhossein-z.github.io'
+title = 'Amirhossein Zareian'
+theme = 'typo'
+googleAnalytics = "G-XJF3ZBNKE3"
+
+[params]
+# Meta description
+# description = "Amirhossein Zareian a Developer | geek | Linux | agnostic"
+description = "Home page of Amirhossein Zareian personal website."
+
+
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+homeIntroTitle = 'Hello'
+# homeIntroContent = """
+# This is home page, nothing especial :)
+# If you want to know me, read
+# <a href="{{ site.baseurl }}/about">about</a> page.
+# """
+
+homeIntroContent = """
+I am a developer who began my journey in September 2019, starting to program and learn about computer technology. I learned C++, jumped between different programming languages like Python, PHP, JS, learn about Network stuff, familiarized with the GNU/Linux operating system, learned Vim(that I can't leave without it), and tried to stick to a scope of this big world to learned deeply and efficiently. i.e front-end. Currently, it's been +3 years that I've been focused on front-end development. I love to implement useful things, whether it's a web application or anything that solves user needs and creates real value. But I'm always looking for opportunities to improve my skills and learning new things in the computer world.
+
+If you have any question, you can reach me through contact list.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+showTags = true
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/amirhossein-zareian"
+
+[[params.social]]
+name = "medium"
+url = "https://medium.com/@Amirhossein_Zareian"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/AmirHossein-z"
+
+[[params.social]]
+name = "bluesky"
+url = "https://bsky.app/profile/amirhossein-z.bsky.social"
+
+[[params.social]]
+name = "telegram"
+url = "https://t.me/Amirhosseyn_Zareian"
+
+[[params.social]]
+name = "email"
+url = "amirhosseinzareian01@gmail.com"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "question"
+url = "/question"
+
+[[params.menu]]
+name = "search"
+url = "/search"
+
+[[params.menu]]
+name = "skills"
+url = "/skills"
+
+[markup]
+[markup.highlight]
+style = 'algol'
+
+[taxonomies]
+  tag = "tags"
+
+[[params.menu]]
+name = "tags"
+url = "/tags"
