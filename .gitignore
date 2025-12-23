@@ -11,3 +11,6 @@ package.json
 *.gemspec
 .jekyll-cache
 vendor
+themes
+.hugo_build.lock
+public
