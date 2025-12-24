@@ -99,3 +99,7 @@ style = 'algol'
 [[params.menu]]
 name = "tags"
 url = "/tags"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
