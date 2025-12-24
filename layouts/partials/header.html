@@ -4,11 +4,14 @@
 
     {{ if or (not (.Param "hideHeader")) .IsHome }}
 
-    <div style="display: flex; gap:8px;flex-wrap: wrap;">
+    <div style="display: flex; gap:8px;flex-wrap: wrap;align-items: center;">
         <img src="/logo.jpg" alt="logo" style="width: 80px;border-radius: 9999px;" />
-        <h1 class="header-title">
-            <a href="{{ site.BaseURL }}">{{ site.Title }}</a>
-        </h1>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+            <h1 class="header-title">
+                <a href="{{ site.BaseURL }}">{{ site.Title }}</a>
+            </h1>
+            <p>Developer | geek | agnostic </p>
+        </div>
     </div>
 
     <div class="header-menu">
