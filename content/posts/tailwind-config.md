@@ -10,7 +10,6 @@ Did you know you can import tailwind-config file in your React components?
 I use it to prevent code repetition for my breakpoints like the image provided.
 but it has other stuff in that config too.
 
-![Alt text](/tailwind-config.jpeg)
-<!--<img src="/tailwind-config.jpeg" alt="404 image" style="width: 400px" />-->
+![tailwind config image](/tailwind-config.jpeg)
 
 Give it a try!
