@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<div class="list-container">
+
+    {{ partial "breadcrumbs.html" . }}
+
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ $tagsPage := eq .Title "Tags"}}
+
+    {{ $paginationSize := 1}}
+    {{ if (gt .Site.Params.paginationSize 0) }}
+    {{ $paginationSize = .Site.Params.paginationSize }}
+    {{ end }}
+
+    {{ $paginator := .Paginate (.Pages) $paginationSize }}
+
+    {{ if $tagsPage }}
+        <div class="tag-container">
+    {{ end }}
+
+    {{ $pages := $paginator.Pages }}
+    {{ $lastIndex := sub (len $pages) 1 }}
+
+    {{ range $index, $page := $pages }}
+        {{ if $tagsPage }}
+            {{ partial "tag-entry.html" $page }}
+            {{ if ne $index $lastIndex }} | {{ end }}
+        {{ else }}
+            {{ partial "post-entry.html" $page }}
+        {{ end }}
+    {{ end }}
+    <!--{{ range $index, $page := $paginator.Pages }}
+
+        {{ if $tagsPage }}
+            {{ partial "tag-entry.html" $page }} |
+        {{ else }}
+            {{ partial "post-entry.html" $page }}
+        {{ end }}
+    {{ end }}-->
+
+    {{ if $tagsPage }}
+        </div>
+    {{ end }}
+
+    {{ partial "pagination-controls.html" $paginator}}
+
+</div>
+{{ end }}
