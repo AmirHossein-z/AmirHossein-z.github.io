@@ -17,3 +17,9 @@ hugo
 git pull
 git submodule update --init --recursive
 ```
+
+## Acknowledgements
+
+[typo](https://github.com/tomfran/typo)
+
+[Hugo](https://gohugo.io/)
