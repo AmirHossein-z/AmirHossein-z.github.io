@@ -47,3 +47,5 @@ has lots of resource that you can search for them to learn more.
 - What is tradeoff? and its effect on our life? [Read more](/blog/tradeoffs/)
 
 - What is planing? Do you plan in your life? What is bullet journal?
+
+- What is uncertainty & risk? What is the difference between these?
