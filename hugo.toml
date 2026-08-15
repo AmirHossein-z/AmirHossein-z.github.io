@@ -98,3 +98,6 @@ url = "/tags"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[security]
+  allowContent = ['text/html','text/markdown']
